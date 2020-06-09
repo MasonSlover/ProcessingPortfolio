@@ -4,7 +4,7 @@ Hey! My name is Mason Slover and I am a mathematics and computer science student
 ## [Dynamic Variable Width Fonts](./VariableWidthFonts)
 Using processing, I was able to import a variable width font and dynamically adjust the type's weight and height. Using sinusoidal speed changes and random character attributes, this project creates dynamic type that allows for extreme flexibility.
 
-<img src="./Variable/VariableWidthFont.gif" style="zoom:25%;" />
+<img src="./VariableWidthFonts/VariableWidthFont.gif" style="zoom:25%;" />
 
 
 
