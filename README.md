@@ -10,7 +10,7 @@ Using processing, I was able to import a variable width font and dynamically adj
 
 ## [Flocking Algorithms](./FlockingAlgorithm)
 
-Using a [Stanford overview](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/boids.html) of [Craig Reynold's Boids Algorithm](http://www.red3d.com/cwr/boids/), I implemented three main flocking behaviors to simulate natural behavior in Processing:
+Using a [Craig Reynold's Boids algorithm writup](http://www.red3d.com/cwr/boids/), I implemented three main flocking behaviors to simulate natural behavior in Processing:
 
 ### Separation: 
 
@@ -27,3 +27,20 @@ Each Boid will steer towards the average heading of all other Boids within 20px.
 
 
 <img src="./FlockingAlgorithm/boids.gif" style="zoom:50%;" />
+
+
+
+## Facial Obfuscation Mirrors
+
+Inspired by the peaceful protests in Hong Kong and the United States and the growing fear of government athorities using facial recognition to identify and prosecute protestors, I created several facial obfusication algorithms that prevent recognition of the observer.
+
+### [Image Rasterization and "Ghosting"](./Ghosting)
+
+This program hooks into a user's webcam and augments it's input. Using the global `resolution` variable, the video feed is evaluated at several intervals where the brightness of selected pixels are mapped to the size of an ellipse at the same point. The color is also taken from this point. By progressivly destroying older frame's content, the viewer is only recognizable when they are still.
+
+
+
+
+
+
+
