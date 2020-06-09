@@ -47,7 +47,7 @@ Using processing, I was able to import a variable width font and dynamically adj
 
 ## [Flocking Algorithm](./FlockingAlgorithm)
 
-Using a [Craig Reynold's Boids algorithm writeup](http://www.red3d.com/cwr/boids/), I implemented three main flocking behaviors to simulate natural behavior in Processing:
+Using a [Craig Reynold's Boids algorithm writeup](http://www.red3d.com/cwr/boids/), I implemented three flocking behaviors to simulate natural behavior in Processing:
 
 <h5>Separation:</h5> 
 
