@@ -11,7 +11,9 @@ Inspired by the peaceful protests in Hong Kong and the United States and the gro
 
 This program hooks into a user's webcam and augments its input. Using the global `resolution` variable, the video feed is evaluated at several intervals where the brightness of selected pixels are mapped to the size of an ellipse at the same point. The color is also taken from this point. By progressively destroying older frame's content, the viewer is only recognizable when they are still.
 
-<img src="./Ghosting/raster.gif" style="zoom:75%;" />
+<center>
+
+<img src="./Ghosting/raster.gif" style="zoom:75%;" style="text-align:center;"/>
 
 ### [Facial Tracking and Dithering](./Dithering)
 
