@@ -51,7 +51,7 @@ When the mouse is pressed, the location of the pointer acts as a point of avoida
 
 
 
-<img src="./FlockingAlgorithm/boids.gif" style="zoom:50%;" />
+<p align="center"><img src="./FlockingAlgorithm/boids.gif"/></p>
 
 
 
