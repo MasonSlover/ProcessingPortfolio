@@ -6,4 +6,4 @@ Using processing, I was able to import a variable width font and dynamically adj
 
 
 
-![](.../Variable/VariableWidthFont.gif)
+![](./Variable/VariableWidthFont.gif)
