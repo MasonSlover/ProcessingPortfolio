@@ -27,7 +27,7 @@ This project selects random pixels from the input of the and creates a rectangle
 
 Using processing, I was able to import a variable width font and dynamically adjust the type's weight and height. Using sinusoidal speed changes and random character attributes, this project creates dynamic type that allows for extreme flexibility.
 
-<img src="./VariableWidthFonts/VariableWidthFont.gif" style="zoom:25%;" />
+<img src="./VariableWidthFonts/VariableWidthFont.gif" style="zoom:10%;" />
 
 ## [Flocking Algorithm](./FlockingAlgorithm)
 
