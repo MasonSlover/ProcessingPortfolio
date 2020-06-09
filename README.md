@@ -1,11 +1,11 @@
 # Processing Portfolio
-Hey! My name is Mason Slover and I am a mathematics and computer science student at Fordham University Lincoln Center. I have been creating art using Processing, a visual Java environment, for 5 years. This GitHub is a repository of some of my favorite works, some of which are open source. Here are a few of my favorite pieces:
+Hey! My name is Mason Slover and I'm a mathematics and computer science student at Fordham University at Lincoln Center. I have been creating art using Processing, a visual Java environment, for 5 years. This GitHub is a repository of some of my favorite works, some of which are open source:
 
-[toc]
+
 
 ## Facial Obfuscation Mirrors
 
-Inspired by the peaceful protests in Hong Kong and the United States and the growing fear of government athorities using facial recognition to identify and prosecute protestors, I created several facial obfusication algorithms that prevent recognition of the observer.
+Inspired by the peaceful protests in Hong Kong and the United States and the growing fear of government authorities using facial recognition to identify and prosecute protestors, I created several facial obfuscation mirrors that prevent recognition of the observer by humans and facial detection software.
 
 ### [Image Rasterization and "Ghosting"](./Ghosting)
 
