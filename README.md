@@ -1,5 +1,5 @@
 # Processing Portfolio
-Hey! My name is Mason Slover and I'm a mathematics and computer science student at Fordham University at Lincoln Center. I have been creating art using Processing, a visual Java environment, for 5 years. This GitHub repository contains some of my favorite works and the '.pde' files:
+Hey! My name is Mason Slover and I'm a mathematics and computer science student at Fordham University at Lincoln Center. I have been creating art using Processing, a visual Java environment, for 5 years. This GitHub repository contains some of my favorite works and the `.pde` files for each:
 
 
 
