@@ -33,15 +33,15 @@ Using processing, I was able to import a variable width font and dynamically adj
 
 Using a [Craig Reynold's Boids algorithm writeup](http://www.red3d.com/cwr/boids/), I implemented three main flocking behaviors to simulate natural behavior in Processing:
 
-### Separation: 
+<h6>Separation</h6> 
 
 Any "Boid" within 20 pixels with another Boid will steer away from the center of the other Boid to avoid colliding.
 
-### Cohesion: 
+<h6>Cohesion</h6>
 
 Each Boid calculates the average position of all other Boids within 20px, and steers towards that point. This allows for "flocks" of Boids.
 
-### Alignment: 
+<h6>Alignment</h6>
 
 Each Boid will steer towards the average heading of all other Boids within 20px. This allows for flocks to fly in the same direction.
 
