@@ -7,6 +7,14 @@ Hey! My name is Mason Slover and I'm a mathematics and computer science student 
 
 Inspired by the peaceful protests in Hong Kong and the United States and the growing fear of government authorities using facial recognition to identify and prosecute protestors, I created several facial obfuscation mirrors that prevent recognition of the observer by humans and facial detection software.
 
+### [Facial Tracking and Dithering](./Dithering)
+
+This project selects random pixels from the input of the and creates a rectangle using the color of the pixel selected. Using [OpenCV for Processing,](https://github.com/atduskgreg/opencv-processing) all faces within view of the webcam are detected, and the size of the rectangle drawn within the frame of the face are increased to obfuscate the viewer and prevent identification. Upon clicking on the window with the mouse, the sizes of the rectangles are reversed, revealing the viewer and obstructing the background.
+
+<p align="center"><img src="./Dithering/dotted.gif" style="zoom:75%;" /></p>
+
+
+
 ### [Image Rasterization and "Ghosting"](./Ghosting)
 
 This program hooks into a user's webcam and augments its input. Using the global `resolution` variable, the video feed is evaluated at several intervals where the brightness of selected pixels are mapped to the size of an ellipse at the same point. The color is also taken from this point. By progressively destroying older frame's content, the viewer is only recognizable when they are still.
@@ -14,12 +22,6 @@ This program hooks into a user's webcam and augments its input. Using the global
 <p align="center"><img src="./Ghosting/raster.gif" style="zoom:75%;" /></p>
 
 
-
-### [Facial Tracking and Dithering](./Dithering)
-
-This project selects random pixels from the input of the and creates a rectangle using the color of the pixel selected. Using [OpenCV for Processing,](https://github.com/atduskgreg/opencv-processing) all faces within view of the webcam are detected, and the size of the rectangle drawn within the frame of the face are increased to obfuscate the viewer and prevent identification. Upon clicking on the window with the mouse, the sizes of the rectangles are reversed, revealing the viewer and obstructing the background.
-
-<p align="center"><img src="./Dithering/dotted.gif" style="zoom:75%;" /></p>
 
 
 
@@ -29,11 +31,19 @@ Using [Perlin noise,](https://en.wikipedia.org/wiki/Perlin_noise) this project w
 
 <p align="center"><img src="./PerlinOffset/justNum.gif" style="zoom:75%;" /></p>
 
+
+
+
+
 ## [Dynamic Variable Width Fonts](./VariableWidthFonts)
 
 Using processing, I was able to import a variable width font and dynamically adjust the type's weight and height. Using sinusoidal speed changes and random character attributes, this project creates dynamic type that allows for extreme flexibility.
 
 <img src="./VariableWidthFonts/VariableWidthFont.gif" />
+
+
+
+
 
 ## [Flocking Algorithm](./FlockingAlgorithm)
 
