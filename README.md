@@ -23,6 +23,12 @@ This project selects random pixels from the input of the and creates a rectangle
 
 
 
+## [Warping Type using Perlin Noise](./PerlinOffset)
+
+Using [Perlin noise,](https://en.wikipedia.org/wiki/Perlin_noise) this project warps type by offsetting individual pixels based on the value of the noise generated at a point. The noise is translated under the type, resulting in a rippling effect.
+
+<p align="center"><img src="./PerlinOffset/justNum.gif" style="zoom:75%;" /></p>
+
 ## [Dynamic Variable Width Fonts](./VariableWidthFonts)
 
 Using processing, I was able to import a variable width font and dynamically adjust the type's weight and height. Using sinusoidal speed changes and random character attributes, this project creates dynamic type that allows for extreme flexibility.
