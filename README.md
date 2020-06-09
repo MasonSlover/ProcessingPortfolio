@@ -13,7 +13,7 @@ This program hooks into a user's webcam and augments its input. Using the global
 
 <center>
 
-<img src="./Ghosting/raster.gif" style="zoom:75%;" style="text-align:center;"/>
+<img src="./Ghosting/raster.gif" style="text-align:center;"/>
 
 ### [Facial Tracking and Dithering](./Dithering)
 
