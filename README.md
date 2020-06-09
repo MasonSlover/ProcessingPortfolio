@@ -11,15 +11,17 @@ Inspired by the peaceful protests in Hong Kong and the United States and the gro
 
 This program hooks into a user's webcam and augments its input. Using the global `resolution` variable, the video feed is evaluated at several intervals where the brightness of selected pixels are mapped to the size of an ellipse at the same point. The color is also taken from this point. By progressively destroying older frame's content, the viewer is only recognizable when they are still.
 
-<center>
+<p align="center"><img src="./Ghosting/raster.gif" style="zoom:75%;" /></p>
 
-<img src="./Ghosting/raster.gif" style="text-align:center;"/>
+
 
 ### [Facial Tracking and Dithering](./Dithering)
 
 This project selects random pixels from the input of the and creates a rectangle using the color of the pixel selected. Using [OpenCV for Processing,](https://github.com/atduskgreg/opencv-processing) all faces within view of the webcam are detected, and the size of the rectangle drawn within the frame of the face are increased to obfuscate the viewer and prevent identification. Upon clicking on the window with the mouse, the sizes of the rectangles are reversed, revealing the viewer and obstructing the background.
 
-<img src="./Dithering/dotted.gif" style="zoom:75%;" />
+<p align="center"><img src="./Dithering/dotted.gif" style="zoom:75%;" /></p>
+
+
 
 ## [Dynamic Variable Width Fonts](./VariableWidthFonts)
 
