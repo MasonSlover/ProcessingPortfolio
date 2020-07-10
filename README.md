@@ -23,6 +23,12 @@ This program hooks into a user's webcam and augments its input. Using the global
 
 
 
+## [Creating a typing animation for Github profile README.md](./GithubREADMEBanner)
+
+Using Processing, this project creates a typing animation that dynamically scales type for both a main title and subheadline. The type is stored in a 2D array and and the program uses `.substring` to create the typing animation.
+
+<p align="center"><img src="./GithubREADMEBanner/output.gif" /></p>
+
 
 
 ## [Warping Type using Perlin Noise](./PerlinOffset)
@@ -49,7 +55,7 @@ Using processing, I was able to import a variable width font and dynamically adj
 
 Using a [Craig Reynold's Boids algorithm writeup](http://www.red3d.com/cwr/boids/), I implemented three flocking behaviors to simulate natural behavior in Processing:
 
-<h5>Separation:</h5> 
+<h5>Separation:</h5>
 
 Any "Boid" within 20 pixels with another Boid will steer away from the center of the other Boid to avoid colliding.
 
@@ -68,6 +74,3 @@ When the mouse is pressed, the location of the pointer acts as a point of avoida
 
 
 <p align="center"><img src="./FlockingAlgorithm/boids.gif"/></p>
-
-
-
